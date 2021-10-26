@@ -1,0 +1,23 @@
+<app-header></app-header>
+<div class="container">
+    <h3>Food Critics</h3>
+    <div><input type="text" placeholder="search critic" [(ngModel)]="filterName"/></div><br>
+    <div class="row" *ngFor="let foodCritic of foodCriticList | filter:filterName">
+        <div class="col-md-8">
+            <b>{{ foodCritic.name }}</b>
+            <div class="row">
+                <div class="col-md-12">
+                    Followers: {{ foodCritic.followerCount }}
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <br>
+            <button *ngIf="!foodCritic.follow" class="btn btn-primary" (click)="followFoodCriticHandler(foodCritic)"> Follow </button>
+            <button *ngIf="foodCritic.follow" class="btn btn-danger" (click)="removeFoodCriticHandler(foodCritic)"> Remove</button>
+        </div>
+
+    </div>
+    
+</div>

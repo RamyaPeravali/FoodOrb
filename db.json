@@ -1,0 +1,380 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Harry Joans",
+      "email": "harry@gmail.com",
+      "phone": 8712903745,
+      "password": "harry12"
+    },
+    {
+      "id": 2,
+      "name": "Lara Jean",
+      "email": "lara@yahoo.com",
+      "phone": 9123456708,
+      "password": "lara098"
+    },
+    {
+      "id": 3,
+      "name": "BellaSwan",
+      "phone": 7639082367,
+      "email": "bella@gmail.com",
+      "password": "323bella"
+    },
+    {
+      "id": 4,
+      "name": "Edward Cullen",
+      "phone": 1234567889,
+      "email": "edward@gmail.com",
+      "password": "edward123"
+    },
+    {
+      "name": "Jacob Black",
+      "phone": 6783927456,
+      "email": "jacob@yahoo.com",
+      "password": "jacob123",
+      "id": 5
+    },
+    {
+      "name": "Alice Cullen",
+      "phone": 8765438897,
+      "email": "alice@gmail.com",
+      "password": "alice123",
+      "id": 6
+    },
+    {
+      "name": "John Liam",
+      "phone": "7483902345",
+      "email": "john@yahoo.com",
+      "password": "12345",
+      "id": 7
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Paradise",
+      "rating": 4.8,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 2,
+      "name": "Subway",
+      "rating": 4.5,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 3,
+      "name": "Burger King",
+      "rating": 4.2,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 4,
+      "name": "Domino's",
+      "rating": 4,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 5,
+      "name": "Pizza Hut",
+      "rating": 4.1,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 6,
+      "name": "KFC",
+      "rating": 4.2,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 7,
+      "name": "Cream Stone",
+      "rating": 3.8,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 8,
+      "name": "Baskin Robbins",
+      "rating": 4.4,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    },
+    {
+      "id": 9,
+      "name": "Pop's",
+      "rating": 3.5,
+      "thumbnailUrl": "https://via.placeholder.com/300x200/FFB2B2"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "restaurantId": 1,
+      "name": "Veg Biryani",
+      "price": "300",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 2,
+      "restaurantId": 1,
+      "name": "Chicken Biryani",
+      "price": "550",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 3,
+      "restaurantId": 1,
+      "name": "Mutton Biryani",
+      "price": "600",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 4,
+      "restaurantId": 1,
+      "name": "Prawns Biryani",
+      "price": "650",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 5,
+      "restaurantId": 2,
+      "name": "Veg Roll",
+      "price": "100",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 6,
+      "restaurantId": 2,
+      "name": "Aloo Patty",
+      "price": "125",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 7,
+      "restaurantId": 2,
+      "name": "Paneer Tikka",
+      "price": "1.25",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 8,
+      "restaurantId": 2,
+      "name": "Corn & Peas",
+      "price": "150",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 9,
+      "restaurantId": 3,
+      "name": "Cheese Burger",
+      "price": "199",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 10,
+      "restaurantId": 3,
+      "name": "Whopper",
+      "price": "149",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 11,
+      "restaurantId": 3,
+      "name": "Veg Burger",
+      "price": "99",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 12,
+      "restaurantId": 4,
+      "name": "Pepperoni Feast",
+      "price": "325",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 13,
+      "restaurantId": 4,
+      "name": "Double Cheese Pizza",
+      "price": "449",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 14,
+      "restaurantId": 5,
+      "name": "Chicken Pizza",
+      "price": "329",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 15,
+      "restaurantId": 5,
+      "name": "Farm House Pizza",
+      "price": "249",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 16,
+      "restaurantId": 5,
+      "name": "Garlic Bread",
+      "price": "99",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 17,
+      "restaurantId": 6,
+      "name": "Chicken Wings Combo",
+      "price": "650",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 18,
+      "restaurantId": 6,
+      "name": "Chicken Strips",
+      "price": "300",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 19,
+      "restaurantId": 6,
+      "name": "Chicken Popcorn",
+      "price": "250",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 20,
+      "restaurantId": 7,
+      "name": "Red Velvet Cake",
+      "price": "800",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 21,
+      "restaurantId": 7,
+      "name": "French Vanilla",
+      "price": "550",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 22,
+      "restaurantId": 8,
+      "name": "Classic Fudge",
+      "price": "440",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 23,
+      "restaurantId": 8,
+      "name": "Single Scoop Sundae",
+      "price": "200",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 24,
+      "restaurantId": 8,
+      "name": "Brownie Sandwich",
+      "price": "549",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 25,
+      "restaurantId": 9,
+      "name": "Protein Power Shake",
+      "price": "249",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 26,
+      "restaurantId": 9,
+      "name": "Choco Koffee",
+      "price": "180",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 27,
+      "restaurantId": 9,
+      "name": "Blueberry Ice Tea",
+      "price": "110",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    },
+    {
+      "id": 28,
+      "restaurantId": 9,
+      "name": "Mojito Mint",
+      "price": "100",
+      "thumbnailUrl": "https://via.placeholder.com/150x100/bcd4e6"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderedItems": 2,
+      "status": "placed"
+    },
+    {
+      "orderedItems": 1,
+      "status": "placed",
+      "id": 2
+    },
+    {
+      "orderedItems": 1,
+      "status": "delivered",
+      "id": 3
+    },
+    {
+      "orderedItems": 1,
+      "status": "delivered",
+      "id": 4
+    },
+    {
+      "orderedItems": 1,
+      "status": "delivered",
+      "id": 5
+    },
+    {
+      "orderedItems": 2,
+      "status": "delivered",
+      "id": 6
+    }
+  ],
+  "foodCritics": [
+    {
+      "id": 1,
+      "name": "Chandler Bing",
+      "followerCount": "3k",
+      "added": false,
+      "follow": false
+    },
+    {
+      "id": 2,
+      "name": "Monica Geller",
+      "followerCount": "1.2k",
+      "added": false,
+      "follow": false
+    },
+    {
+      "id": 3,
+      "name": "Phoebe Buffay",
+      "followerCount": "2.5k",
+      "added": false,
+      "follow": false
+    },
+    {
+      "id": 4,
+      "name": "Rachel Green",
+      "followerCount": "1.9k",
+      "added": false
+    },
+    {
+      "id": 5,
+      "name": "Joey Tribbiani",
+      "followerCount": "3.1k",
+      "added": false
+    },
+    {
+      "id": 6,
+      "name": "Ross Geller",
+      "followerCount": "1k",
+      "added": false
+    }
+  ]
+}
